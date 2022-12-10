@@ -28,5 +28,6 @@ STEP2: CREATE A LAMBDA
 
 * Select AUTHOR FROM SCRATCH option
 * Use the following basic information below to create function
+
                                   -FIELD        |       VALUE     
                                   FUNCTION NAME |    Your choice
