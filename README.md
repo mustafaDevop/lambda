@@ -33,5 +33,26 @@ STEP2: CREATE A LAMBDA
                                   FUNCTION NAME |    Your choice
                                   RUNTIME       |    Node.js 12.x
                                   PERMISSION    |    Use default
-                                  
-                               
+    
+    ![create function](https://user-images.githubusercontent.com/94189602/206866513-1164ae14-4298-4e52-b233-cfba9d2a1a6b.PNG)
+          
+                        NEXT, THE WIZARD WILL AUTOMATICALLY DISPLAY THE DETAILS OF THE NEWLY FUNCTION CREATED
+ 
+ STEP3: ADD A TRIGGER
+ 
+ ![add triger](https://user-images.githubusercontent.com/94189602/206866868-0d85d75f-1a8b-4a5b-8e2e-cfb5dd165ddc.PNG)
+ 
+ * On the Add trigger screen,select "s3" 
+ 
+ * Select the s3 bucket name for the bucket
+ 
+ * For Event Type, select "All object create events".
+ 
+            THIS MEANS THAT ANYTIME A FILE IS CREATED OR UPLOADED TO THE SELECTED S3 BUCKET, THE LAMBDA FUNCTION WILL  BE TRIGGERED.
+ 
+
+* Acknowledge the Recursive invocation message 
+
+* Click the Add button. Congratulations, you've added a trigger!
+
+STEP4: CONFIGURE TEST EVENT
