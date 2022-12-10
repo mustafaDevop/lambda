@@ -1,2 +1,2 @@
 # lambda
-# creating a lambda function connected to an s3 bucket
+# CREATING A LAMBDA FUNCTION CONNECTED TO AN S3 BUCKET
