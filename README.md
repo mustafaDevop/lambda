@@ -6,3 +6,5 @@
 
 Overview: create an  s3 bucket, create a lambda fuction and connecting it to the s3 bucket.
 
+Architecture
+
