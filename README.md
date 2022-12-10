@@ -31,3 +31,7 @@ STEP2: CREATE A LAMBDA
 
                                   -FIELD        |       VALUE     
                                   FUNCTION NAME |    Your choice
+                                  RUNTIME       |    Node.js 12.x
+                                  PERMISSION    |    Use default
+                                  
+                               
