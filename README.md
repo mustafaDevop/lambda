@@ -14,7 +14,7 @@ Architecture
 
 STEP1: CREATE AN S3 BUCKET
 
-* create an s3 bucket( we won't be going through that cause have already taught that already in my AWS STATIC WEBSITE repo, so i would recommend you to look at that. Thats if you dont know how to create one.
+* create an s3 bucket( we won't be going through that cause have already taught that already in my S3 BUCKET repo, so i would recommend you to look at that. Thats if you dont know how to create one.
 
 STEP2: CREATE A LAMBDA 
 
