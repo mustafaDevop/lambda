@@ -68,9 +68,9 @@ STEP4: CONFIGURE TEST EVENT
 
 * Update the JSON to the statement below, replacing the string value with your name or anything of your choice
 
-                                 `   {
+                                    {
                                                 "key1": "Place your name here"
-                                    }  `
+                                    }  
                                     
 Step 5: Modify a Lambda Function
 
@@ -78,7 +78,7 @@ Step 5: Modify a Lambda Function
 
 * Replace the code on Line 5 with the statement below, and save your code:
   
-                                  `  body: JSON.stringify('Hello ' + event.key1 + ' from Lambda!'),   `
+                                   body: JSON.stringify('Hello ' + event.key1 + ' from Lambda!'),   
 
 ![code lambda](https://user-images.githubusercontent.com/94189602/206868559-3097f91e-7136-4461-8f63-411a08a07e6a.PNG)
 
